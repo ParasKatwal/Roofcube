@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.topSection {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.topSection .topVideo {
+  z-index: -1;
+}
+
+.topSection video {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.topSection .header {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  z-index: 2;
+  background-color: black;
+}
+
+.topSection .header a {
+  display: inline-block;
+  font-size: 12px;
+  color: white;
+  padding: 5px 20px;
+  font-weight: lighter;
+  margin: 0 15px;
+}
+
+.topSection .header a:hover {
+  text-decoration: none;
+}
+
+.topSection .logo {
+  width: 50%;
+  height: 12vh;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 28px;
+  z-index: 2;
+  background: #545456;
+}
+
+.topSection .logo img {
+  width: 13%;
+}
+
+.slider {
+  position: absolute;
+  bottom: -130px;
+  background: white;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.slider .item {
+  background: grey;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider .item P {
+  position: absolute;
+  bottom: -16px;
+  background: rgba(3, 169, 244, 0.5);
+  padding: 5px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.slider .owl-carousel {
+  position: relative;
+}
+
+.slider .owl-nav {
+  margin: 0px;
+}
+
+.slider .owl-carousel .owl-nav button.owl-next {
+  font-size: 50px;
+  position: absolute;
+  background: black;
+  color: white;
+  right: -5px;
+  top: 25%;
+  padding: 10px !important;
+}
+
+.slider .owl-carousel .owl-nav button.owl-prev {
+  font-size: 50px;
+  position: absolute;
+  background: black;
+  color: white;
+  left: -4px;
+  top: 25%;
+  padding: 10px !important;
+}
+
+.slider a img {
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.slider a img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.slider a .hide {
+  position: absolute;
+  top: 0;
+  color: white;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 35%;
+  visibility: hidden;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.slider a:hover .hide {
+  visibility: visible;
+}
+
+.secondSection {
+  margin-top: 15%;
+}
+
+.secondSection h1 {
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+.secondSection .box1 {
+  padding-top: 20px;
+}
+
+.secondSection .box1 img {
+  width: 20%;
+}
+
+.secondSection .box1 p {
+  padding: 20px;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+footer {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 50px;
+}
+
+footer p {
+  text-align: center;
+  padding: 30px;
+}
+
+footer .logo {
+  border-right: 1px solid black;
+}
+
+footer .logo img {
+  width: 50%;
+}
+
+footer .menu ul li {
+  list-style: none;
+  font-size: 15px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer .fab {
+  font-size: 40px;
+}
+
+footer i {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 5px;
+}
+
+footer .copyright p {
+  font-size: 12px;
+}
+/*# sourceMappingURL=style.css.map */
